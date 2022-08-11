@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,500;1,500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+body {
+    background-color: blueviolet;
+    font-family: 'Roboto Mono';
+}
+
+.content {
+    height: 69vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+
+
+}
+
+.teste {
+    margin-bottom: 20px;
+    color: rgb(195, 148, 240);
+}
+
+.megafone {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.megafone{
+    animation: go-back 4s;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+} 
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.img-manutencao {
+    width: 200px;
+    height: 200px;
+}
+
+.icon-social {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+.social {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.icon-social:hover {
+    transform: translateY(3px);
+    box-shadow: 0 5px rgba(102, 102, 102, 0.37);
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    align-items: center;
+    margin-top: 15px;
+    padding: 5px;
+    height: 30px;
+    width: 115px;
+    border: 1px solid rgb(195, 148, 240);
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+button a {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+button:hover {
+    transform: translateY(3px);
+    box-shadow: 0 5px rgba(102, 102, 102, 0.37);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
